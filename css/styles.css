@@ -3,3 +3,19 @@ body {
     background-color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.container {
+    display: grid;
+    width: 60%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    width: auto;
+    height: 150px;
+    background-color: rgba(255, 127, 0, 0.5);
+    border: 2px solid red;
+    border-radius: 10px;
+}
