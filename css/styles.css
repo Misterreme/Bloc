@@ -4,6 +4,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+#logo {
+    width: 100px;
+}
+
 .container {
     display: grid;
     width: 60%;
